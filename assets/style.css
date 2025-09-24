@@ -358,3 +358,125 @@ h1 {
     
 }
 
+
+
+/* Responsive Enhancements */
+
+/* Flexible layout improvements */
+.charts {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+}
+
+.chart {
+    position: relative;
+    width: 25%;
+    min-width: 200px;
+    height: 100px;
+    margin: 10px 0;
+}
+
+/* Mobile-first approach for flexible elements */
+@media (max-width: 575.98px) {
+    .charts {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .chart {
+        width: 100%;
+        max-width: 250px;
+    }
+    
+    #countdown-content {
+        font-size: 1.5em !important;
+    }
+    
+    #kiko-slider {
+        max-width: 100% !important;
+        padding: 10px !important;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .chart {
+        width: 45%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .chart {
+        width: 30%;
+    }
+}
+
+/* Improve WhatsApp button responsiveness */
+#whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 99999;
+    transition: transform 0.3s ease;
+}
+
+#whatsapp:hover {
+    transform: scale(1.1);
+}
+
+@media (max-width: 575.98px) {
+    #whatsapp {
+        bottom: 15px;
+        right: 15px;
+    }
+    
+    #whatsapp svg,
+    #whatsapp a {
+        width: 60px !important;
+        height: 60px !important;
+    }
+}
+
+/* Responsive text scaling */
+@media (max-width: 575.98px) {
+    body {
+        font-size: 14px;
+    }
+    
+    h1 { font-size: 1.8em !important; }
+    h2 { font-size: 1.5em !important; }
+    h3 { font-size: 1.3em !important; }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    h1 { font-size: 2em !important; }
+    h2 { font-size: 1.6em !important; }
+    h3 { font-size: 1.4em !important; }
+}
+
+/* Ensure images are responsive by default */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Flexible container improvements */
+.sb-container, .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+@media (min-width: 576px) {
+    .sb-container, .container {
+        padding: 0 20px;
+    }
+}
+
+@media (min-width: 768px) {
+    .sb-container, .container {
+        padding: 0 30px;
+    }
+}

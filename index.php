@@ -65,11 +65,12 @@ if($telefono=="9841785937"){
         <meta charset='utf-8'>
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta http-equiv="Content-Language" content="es">
-        <meta name="viewport" content="width=device-width">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta content="origin-when-cross-origin" name="referrer">
         
         <link rel="stylesheet" href="assets/style.css">
         <link rel="stylesheet" href="assets/responsive.css">
+        <link rel="stylesheet" href="assets/mobile-responsive.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <base>
         <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>

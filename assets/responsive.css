@@ -1,10 +1,113 @@
-@media (min-width: 480px) and (max-width: 768px) { 
-    .chart{
-        width: 50%;
+/* Mobile First Responsive Design */
+
+/* Extra Small devices (phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .chart {
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .charts {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    /* Button responsiveness for mobile */
+    .sb-button, .btn-test, [id*="Button"] {
+        width: 90% !important;
+        max-width: 300px !important;
+        font-size: 16px !important;
+        padding: 12px 20px !important;
+        margin: 8px auto !important;
+        display: block !important;
+        text-align: center !important;
+        line-height: 1.4 !important;
+    }
+    
+    /* Typography scaling */
+    h1 { font-size: 24px !important; }
+    h2 { font-size: 20px !important; }
+    h3 { font-size: 18px !important; }
+    p, div { font-size: 14px !important; line-height: 1.5 !important; }
+    
+    /* Image responsiveness */
+    img {
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    
+    /* Container padding for mobile */
+    .container, .sb-container {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+    
+    /* WhatsApp button adjustment */
+    #whatsapp {
+        bottom: 15px !important;
+        right: 15px !important;
+    }
+    
+    #whatsapp svg, #whatsapp a {
+        width: 60px !important;
+        height: 60px !important;
     }
 }
-@media (max-width: 480px) { 
-    .chart{
-        width: 100%;
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .chart {
+        width: 50%;
+        margin: 10px 0;
+    }
+    
+    .charts {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .sb-button, .btn-test, [id*="Button"] {
+        width: 80% !important;
+        max-width: 350px !important;
+        font-size: 17px !important;
+        padding: 14px 25px !important;
+        margin: 10px auto !important;
+        display: block !important;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .chart {
+        width: 50%;
+        margin: 15px 0;
+    }
+    
+    .charts {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .sb-button, .btn-test, [id*="Button"] {
+        width: auto !important;
+        min-width: 200px !important;
+        font-size: 17px !important;
+        padding: 15px 30px !important;
+        margin: 10px !important;
+        display: inline-block !important;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .chart {
+        width: 25%;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .chart {
+        width: 25%;
     }
 }
