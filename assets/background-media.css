@@ -1,0 +1,115 @@
+/* Background Media Styles - Optimized and Responsive */
+
+/* Default background styles */
+[data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="21f7428b-acb4-4d39-8159-0777f94bb102"],
+[data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="d8ff1144-1e0f-4b88-9f51-ce62392637a1"],
+[data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="5a624224-3cbf-4663-9900-16bbf0ae6a34"],
+[data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="b13af5de-ed36-486e-9e5c-0d1049a8e499"],
+[data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="e437bf78-8722-44f1-803d-9de68bc148c7"],
+[data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="020eedcb-c94f-4456-880d-5930002ee201"],
+[data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="8c7aa42d-7a0e-45b3-b29b-ef98cd11987c"] {
+    background-position: 50% 50% !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+/* Specific contain styles for some elements */
+[data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="d8ff1144-1e0f-4b88-9f51-ce62392637a1"],
+[data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="5a624224-3cbf-4663-9900-16bbf0ae6a34"],
+[data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="b13af5de-ed36-486e-9e5c-0d1049a8e499"],
+[data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="e437bf78-8722-44f1-803d-9de68bc148c7"] {
+    background-size: contain !important;
+}
+
+/* Large Desktop - 1200px and up */
+@media (min-width: 1200px) {
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+    }
+}
+
+/* Desktop - 1032px to 1199px */
+@media (max-width: 1199px) and (min-width: 1032px) {
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+    }
+}
+
+/* Large Tablet - 808px to 1031px */
+@media (max-width: 1031px) and (min-width: 808px) {
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+    }
+}
+
+/* Small Tablet - 667px to 807px */
+@media (max-width: 807px) and (min-width: 667px) {
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+    }
+}
+
+/* Large Mobile - 450px to 666px */
+@media (max-width: 666px) and (min-width: 451px) {
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style] {
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+    }
+    
+    /* Special adjustments for specific elements */
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="020eedcb-c94f-4456-880d-5930002ee201"] {
+        background-size: 77% !important;
+    }
+}
+
+/* Small Mobile - 450px and below */
+@media (max-width: 450px) {
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style] {
+        background-position: 50% 50% !important;
+        background-repeat: repeat !important;
+    }
+    
+    /* Specific optimizations for mobile */
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="21f7428b-acb4-4d39-8159-0777f94bb102"] {
+        background-size: 46% !important;
+    }
+    
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="d8ff1144-1e0f-4b88-9f51-ce62392637a1"] {
+        background-size: 50% !important;
+    }
+    
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="5a624224-3cbf-4663-9900-16bbf0ae6a34"] {
+        background-size: 50% !important;
+    }
+    
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="b13af5de-ed36-486e-9e5c-0d1049a8e499"] {
+        background-size: 50% !important;
+    }
+    
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="e437bf78-8722-44f1-803d-9de68bc148c7"] {
+        background-size: 86% !important;
+    }
+    
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="020eedcb-c94f-4456-880d-5930002ee201"] {
+        background-size: 77% !important;
+        background-repeat: no-repeat !important;
+    }
+    
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="8c7aa42d-7a0e-45b3-b29b-ef98cd11987c"] {
+        background-size: 86% !important;
+        background-repeat: no-repeat !important;
+    }
+}
+
+/* Extra Small Mobile - 375px and below */
+@media (max-width: 375px) {
+    [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style] {
+        background-size: 90% !important;
+        background-position: 50% 50% !important;
+        background-repeat: no-repeat !important;
+    }
+}

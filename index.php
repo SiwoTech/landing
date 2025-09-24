@@ -71,6 +71,7 @@ if($telefono=="9841785937"){
         <link rel="stylesheet" href="assets/style.css">
         <link rel="stylesheet" href="assets/responsive.css">
         <link rel="stylesheet" href="assets/mobile-responsive.css">
+        <link rel="stylesheet" href="assets/background-media.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
         <base>
         <script src="https://cdn.jsdelivr.net/npm/swiffy-slider@1.6.0/dist/js/swiffy-slider.min.js" crossorigin="anonymous" defer></script>
@@ -87,6 +88,8 @@ if($telefono=="9841785937"){
         
         <title>Cleanwork Orange | Home</title>
         <meta name="title" content="CLEANWORK ORANGE | Home">
+        <!-- Background media styles moved to assets/background-media.css -->
+        <!--
         <style>
             [data-sb-id="a18673ae-af29-414a-bf0a-3bc3b9287f4d"] [data-custom-media-style="21f7428b-acb4-4d39-8159-0777f94bb102"] {
               background-position: 50% 50% !important; background-repeat: no-repeat !important; background-size: cover !important;
@@ -256,6 +259,7 @@ if($telefono=="9841785937"){
               }
             }
         </style>
+        -->
 
 
         <script>
