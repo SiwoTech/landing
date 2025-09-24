@@ -57,6 +57,76 @@ textarea
     font-size:20px;
 }
 
+/* Responsive improvements for the admin form */
+@media (max-width: 767.98px) {
+    body {
+        padding: 10px !important;
+    }
+    
+    h1 {
+        font-size: 20px !important;
+        text-align: center !important;
+        margin: 10px 0 !important;
+    }
+    
+    label {
+        font-size: 16px !important;
+        display: block !important;
+        margin: 10px 0 5px 0 !important;
+    }
+    
+    input, textarea {
+        width: 100% !important;
+        max-width: 100% !important;
+        font-size: 16px !important;
+        padding: 10px !important;
+        border-radius: 5px !important;
+        border: 1px solid #ccc !important;
+        box-sizing: border-box !important;
+        margin: 5px 0 !important;
+    }
+    
+    input[type="submit"] {
+        background-color: #14fff9 !important;
+        color: #000 !important;
+        font-weight: bold !important;
+        padding: 12px 20px !important;
+        border-radius: 10px !important;
+        cursor: pointer !important;
+        font-size: 16px !important;
+        margin: 20px 0 !important;
+    }
+    
+    textarea {
+        min-height: 80px !important;
+        resize: vertical !important;
+    }
+    
+    center {
+        text-align: center !important;
+        padding: 0 10px !important;
+    }
+    
+    div[style*="font-size"] {
+        font-size: 18px !important;
+        margin: 15px 0 !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    h1 {
+        font-size: 18px !important;
+    }
+    
+    input, textarea, label {
+        font-size: 14px !important;
+    }
+    
+    div[style*="font-size"] {
+        font-size: 16px !important;
+    }
+}
+
 </style>
 </head>
 

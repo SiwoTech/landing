@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Responsive - Cleanwork Orange</title>
+    <link rel="stylesheet" href="assets/style.css">
+    <link rel="stylesheet" href="assets/responsive.css">
+    <link rel="stylesheet" href="assets/mobile-responsive.css">
+    <link rel="stylesheet" href="views/estilos.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Test styles for demonstration */
+        body { 
+            font-family: 'Lato', 'sans-serif'; 
+            margin: 0; 
+            padding: 0; 
+            background-color: #f5f5f5;
+        }
+        .test-section {
+            background: white;
+            margin: 20px 0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .page-header {
+            background: linear-gradient(135deg, #E55B26, #ff7a4d);
+            color: white;
+            padding: 40px 20px;
+            text-align: center;
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header class="page-header">
+        <h1>¡Sé dueño de tu propio negocio!</h1>
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjAwIiBoZWlnaHQ9IjgwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxyZWN0IHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9IndoaXRlIi8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxOHB4IiBmaWxsPSIjRTU1QjI2IiB0ZXh0LWFuY2hvcj0ibWlkZGxlIiBkeT0iLjNlbSI+Q0xFQU5XT1JLIE9SQU5HRTU8L3RleHQ+PC9zdmc+" width="50%" alt="Logo" style="margin: 20px 0;">
+        <p style="font-weight:bold; font-size:20px;">¡No necesitas local!</p>
+    </header>
+    
+    <div class="container test-section">
+        <h2>Botones de Acción</h2>
+        <center>
+            <a id="Button1" class="sb-cta-wrapper__btn sb-button sb-button--primary" href="#" style="font-size:17px;border-radius:10px">Más información</a>
+        </center>
+        <br>
+        <center>
+            <a id="Button2" class="sb-cta-wrapper__btn sb-button sb-button--primary" href="https://api.whatsapp.com/send?phone=+5299999999&text=¡Hola!+Quiero+más+información" style="font-size:17px;height:70px;border-radius:10px" target="_blank">SOLICITA UNA PRUEBA<br> DE MERCADO AHORA</a>
+        </center>
+    </div>
+    
+    <div class="test-section">
+        <h2>Gráficos Responsivos</h2>
+        <div class="charts">
+            <div class="chart">
+                <div class="circle center-abs"></div>
+                <span class="text center-abs">90%</span>
+                <h3>Éxito</h3>
+            </div>
+            <div class="chart">
+                <div class="circle center-abs"></div>
+                <span class="text center-abs">85%</span>
+                <h3>Satisfacción</h3>
+            </div>
+            <div class="chart">
+                <div class="circle center-abs"></div>
+                <span class="text center-abs">95%</span>
+                <h3>Calidad</h3>
+            </div>
+            <div class="chart">
+                <div class="circle center-abs"></div>
+                <span class="text center-abs">80%</span>
+                <h3>Crecimiento</h3>
+            </div>
+        </div>
+    </div>
+    
+    <div class="test-section">
+        <h2>Imagen Responsiva</h2>
+        <center>
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjRTU1QjI2Ii8+PHRleHQgeD0iNTAlIiB5PSI1MCUiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyNHB4IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSIgZHk9Ii4zZW0iPkltYWdlbiBkZSBQcnVlYmE8L3RleHQ+PC9zdmc+" width="50%" alt="Imagen de prueba">
+        </center>
+    </div>
+    
+    <div class="test-section">
+        <h2>Información del Gerente</h2>
+        <center>
+            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTUwIiBoZWlnaHQ9IjE1MCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48Y2lyY2xlIGN4PSI3NSIgY3k9Ijc1IiByPSI3NSIgZmlsbD0iI0U1NUIyNiIvPjx0ZXh0IHg9IjUwJSIgeT0iNTAlIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTZweCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGR5PSIuM2VtIj5HZXJlbnRlPC90ZXh0Pjwvc3ZnPg==" style="width:50%;" alt="Gerente">
+        </center>
+        <center>
+            <div style="padding:15px;color:rgba(0, 0, 0, 100);font-size:18px">
+                Serás atendido por: <strong>Juan Carlos Pérez</strong><br>Gerente de Franquicias.
+            </div>
+        </center>
+    </div>
+    
+    <!-- Fixed WhatsApp Button -->
+    <div id="whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=+5299999999&text=¡Hola!+Quiero+más+información" target="_blank">
+            <svg width="80" height="80" xmlns="http://www.w3.org/2000/svg" style="filter: drop-shadow(0 1px 4px rgba(0,0,0,.4));">
+                <circle cx="40" cy="40" fill="#25d366" r="38" stroke="#000000" stroke-width="0"/>
+                <path fill="#fff" d="M59.47,33.14c0.06-7.19-5.68-13.04-12.87-13.04-4.75,0-8.99,2.57-11.32,6.78l-4.01-1.53c-0.36-0.14-0.77-0.04-1.04,0.25c-0.27,0.29-0.33,0.71-0.15,1.07l1.75,3.69c0.18,0.38,0.6,0.59,1.01,0.51l4.21-0.83c0.41-0.08,0.73-0.39,0.81-0.8c0.08-0.41-0.11-0.82-0.47-1.04l-2.77-1.67c1.79-3.27,5.23-5.47,9.18-5.47,5.74,0,10.4,4.66,10.4,10.4c0,5.74-4.66,10.4-10.4,10.4c-2.88,0-5.49-1.17-7.38-3.06l-1.74,1.74c2.33,2.33,5.55,3.78,9.12,3.78C53.79,46.18,59.47,40.33,59.47,33.14z"/>
+                <text x="40" y="45" font-family="Arial, sans-serif" font-size="20px" fill="white" text-anchor="middle" font-weight="bold">W</text>
+            </svg>
+        </a>
+    </div>
+    
+    <footer style="background: #333; color: white; padding: 40px 20px; text-align: center; margin-top: 40px;">
+        <p>&copy; 2024 Cleanwork Orange. Todos los derechos reservados.</p>
+        <p>Página optimizada para todos los dispositivos</p>
+    </footer>
+</body>
+</html>

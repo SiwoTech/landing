@@ -158,5 +158,92 @@
         padding: 10px 30px;
         font-size: 10pt;
     }
+}
 
+/* Enhanced responsive design for slider */
+@media screen and (max-width: 575.98px){
+    .content_slider {
+        padding: 10px !important;
+        text-align: center;
+    }
+    
+    .content_slider h2 {
+        font-size: 14pt !important;
+        margin-bottom: 10px !important;
+    }
+    
+    .content_slider p {
+        font-size: 11pt !important;
+        line-height: 1.4 !important;
+        margin-bottom: 15px !important;
+    }
+    
+    #container-slider .arrowPrev, #container-slider .arrowNext{
+        font-size: 18pt !important;
+        color: rgba(229, 91, 38, 0.8);
+    }
+    
+    #container-slider .arrowPrev{
+        left: 10px !important;
+    }
+    
+    #container-slider .arrowNext{
+        right: 10px !important;
+    }
+    
+    #slider{
+        height: 450px !important;
+        min-height: 350px !important;
+    }
+    
+    .btnSlider{
+        padding: 8px 20px !important;
+        font-size: 9pt !important;
+        margin: 5px auto !important;
+        display: block !important;
+        width: 90% !important;
+        max-width: 200px !important;
+    }
+    
+    .listslider {
+        bottom: -40px !important;
+    }
+    
+    .listslider li {
+        width: 8px !important;
+        height: 8px !important;
+        margin: 5px 10px !important;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767.98px){
+    .content_slider h2 {
+        font-size: 16pt !important;
+    }
+    .content_slider p {
+        font-size: 13pt !important;
+    }
+    #container-slider .arrowPrev, #container-slider .arrowNext{
+        font-size: 25pt;
+    }
+    .btnSlider{
+        padding: 12px 25px;
+        font-size: 11pt;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px){
+    .content_slider h2 {
+        font-size: 18pt !important;
+    }
+    .content_slider p {
+        font-size: 14pt !important;
+    }
+    #container-slider .arrowPrev, #container-slider .arrowNext{
+        font-size: 30pt;
+    }
+    .btnSlider{
+        padding: 14px 28px;
+        font-size: 12pt;
+    }
 }
